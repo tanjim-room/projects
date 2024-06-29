@@ -1,0 +1,22 @@
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+
+h1{
+    font-size: 48px;
+    color: rgb(29, 29, 29);
+}
+.name{
+    color:rgb(249, 127, 5)
+}
+
+.up-side{
+    width: 40%;
+    float: left;
+    margin: 5%;
+
+}
+.up-side img{
+    width: 100%;
+}
