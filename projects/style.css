@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: "Poppins", sans-serif;
 
 }
@@ -8,7 +9,7 @@ h1{
     color: rgb(29, 29, 29);
 }
 .name{
-    color:rgb(249, 127, 5)
+    color:tomato;
 }
 
 .up-side{
@@ -20,3 +21,22 @@ h1{
 .up-side img{
     width: 100%;
 }
+section{
+    height: 800px;
+    background: url("images/Bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.link-btn{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border-radius: 7px;
+    
+    
+}
+
