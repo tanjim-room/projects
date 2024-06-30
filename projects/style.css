@@ -8,7 +8,11 @@ h1{
     font-size: 48px;
     color: rgb(29, 29, 29);
 }
-.name{
+
+p{
+   color: rgb(66, 63, 63); 
+}
+.highlight{
     color:tomato;
 }
 
@@ -21,7 +25,7 @@ h1{
 .up-side img{
     width: 100%;
 }
-section{
+.head{
     height: 800px;
     background: url("images/Bg.jpg");
     background-repeat: no-repeat;
@@ -32,11 +36,62 @@ section{
     text-decoration: none;
     background-color: tomato;
     padding: 10px 30px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     color: white;
     border-radius: 7px;
     
     
 }
+
+.down-side{
+    background: url("images/Bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+.down-text h1{
+    font-weight: 500;
+    font-size: 40px;
+    
+}
+
+.down-text .link-btn{
+    
+}
+.foter{
+    background: url("images/Bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+.foter h2{
+    text-align: center;
+}
+.same{
+
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 300px;
+    width: 38.5%;
+    
+}
+#se1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+#se2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+
 
